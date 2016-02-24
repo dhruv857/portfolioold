@@ -339,7 +339,7 @@ var App = {
 	create_map: function(mapContainer) {
 
 		var mapOptions = {
-			center: new google.maps.LatLng(40.7094727,-74.004302),
+			center: new google.maps.LatLng(40.723027, -73.930715),
 			zoom: 13,
 			navigationControl: false,
 			mapTypeControl: false,
@@ -366,7 +366,7 @@ var App = {
 	create_marker: function() {
 
 		var pinImage = new google.maps.MarkerImage('img/marker.png'),
-		myPin = new google.maps.LatLng(40.711859, -74.005848);
+		myPin = new google.maps.LatLng(40.7094727,-74.004302);
 
 		marker = new google.maps.Marker({
 			position: myPin,
