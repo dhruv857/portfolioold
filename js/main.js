@@ -339,7 +339,7 @@ var App = {
 	create_map: function(mapContainer) {
 
 		var mapOptions = {
-			center: new google.maps.LatLng(40.723027, -73.930715),
+			center: new google.maps.LatLng(40.7094727,-74.004302),
 			zoom: 13,
 			navigationControl: false,
 			mapTypeControl: false,
@@ -385,7 +385,7 @@ var App = {
 		boxText.innerHTML = "\
 			<div class='marker-label'>\
 				New York. Address:<br>\
-				One Pace Plaza<br>\
+				163 William Street<br>\
 				New York, NY 10038<br>\
 				USA Tel: +1-917-912-7231.<br>\
 				</div>\
