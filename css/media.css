@@ -208,11 +208,11 @@
 }
 
 
-@media screen and (min-width:768px){
+@media screen and (max-width:768px){
 	.item {
 		margin: 3% !important;
 		padding : 2% !important;
-		width: 92% !important;
+		width: 88% !important;
 		height: auto !important;
 		background: #5B5C5C !important;
 	  border: 4px solid #333 !important;
