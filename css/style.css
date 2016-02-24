@@ -221,10 +221,12 @@ section.page {margin-top:60px;padding:40px 0;}
 }
 
 
-img {
-    margin:5px;
+.item>img {
+    /*margin-left: 15%;*/
+		width:70%;
+		height:auto;
 }
-
+/*
 .isotope-item {
     z-index: 2;
 }
@@ -235,7 +237,7 @@ img {
 .isotope,
 .isotope .isotope-item {
   /* change duration value to whatever you like */
-
+/*
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     transition-duration: 0.8s;
@@ -249,7 +251,7 @@ img {
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
-}
+}*/
 
 
 
